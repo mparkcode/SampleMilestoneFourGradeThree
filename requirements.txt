@@ -19,6 +19,7 @@ lxml==4.2.3
 Pillow==5.2.0
 psycopg2==2.7.5
 python-dateutil==2.7.3
+python-dotenv==0.10.3
 pytz==2018.5
 requests==2.19.1
 s3transfer==0.1.13
