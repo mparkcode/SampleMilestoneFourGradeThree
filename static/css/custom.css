@@ -387,7 +387,7 @@ body{
   position: absolute;
   transition: .5s ease;
   opacity: 0;
-  top: 10%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
