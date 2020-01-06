@@ -393,22 +393,7 @@ body{
   -ms-transform: translate(-50%, -50%);
 }
 
-.game-box .search-in-bible-btn {
-  position: absolute;
-  transition: .5s ease;
-  opacity: 0;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-
 .game-box:hover .add-to-cart-btn {
-  opacity: 1;
-}
-
-.game-box:hover .search-in-bible-btn {
   opacity: 1;
 }
 
@@ -669,68 +654,6 @@ body{
 
 
 /*---------------------------------------------------------------------end css for news area*/
-
-
-/*---------------------------------------------------------------------css for bible area*/
-
-.game-bible-form-submit{
-    padding-left: 0;
-    background: none;
-    border: none;
-    font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #337ab7;
-    font-weight: 500;
-    line-height: 1.1;
-}
-
-.game-bible-form-submit:hover{
-    transition:0.5s color ease;
-    color:#fa9b01 !important;
-    text-decoration: underline;
-}
-
-.igdb{
-    margin: 0 auto;
-    width:80%;
-    height: 300px;
-    padding: 10px;
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
-}
-
-.small-info-area{
-    margin-top: 20px;
-}
-
-.igdb-thumbnail{
-    width: 100%;
-    height: 6.5em;
-}
-
-.screenshot-area{
-    margin-top: 40px;
-}
-
-.igdb-screenshot{
-    padding: 3px;
-    border: 1px solid #e7e7e7;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.igdb-img{
-    width: 90%;
-    margin: 0 auto;
-}
-
-.progress-bar-grey {
-      background-color: grey !important;
-}
-
-
-/*---------------------------------------------------------------------end css for bible area*/
 
 /*---------------------------------------------------------------------media queries & keyframes*/
 

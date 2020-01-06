@@ -8,10 +8,6 @@
             <input type="hidden" name="game_id" value="{{ game.id }}" />
             <button type="submit" class="btn btn-info add-to-cart-btn hvr-icon-forward"><i class='fas fa-shopping-cart hvr-icon'></i> Add</button>
         </form>
-        <form action="{% url 'get_games' %}">
-            <input type="hidden" name="igdb_search" value="{{game.title}}" />
-            <button type="submit" class="btn btn-success search-in-bible-btn hvr-icon-grow-rotate"><i class="fas fa-search hvr-icon"></i> Bible</button>
-        </form>
         <div class="info-container">
             <h5>{{game.title}}</h5>
             <small>{{game.brand}} {{ game.console }}</small>
