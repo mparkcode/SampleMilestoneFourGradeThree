@@ -123,21 +123,6 @@ body{
     padding-top: 40px;
 }
 
-.c64-background{
-    background-image: url('/static/images/c64 background5.jpg');
-    background-size: cover;
-}
-
-.c64-background2{
-    background-image: url('/static/images/c64 background3.jpg');
-    background-size: cover;
-}
-
-.c64-background3{
-    background-image: url('/static/images/c64 background4.jpg');
-    background-size: cover;
-}
-
 .welcome{
     font-family: 'Press Start 2P', 'Orbitron', sans-serif;
     text-align: center;
@@ -156,14 +141,6 @@ body{
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
 }
 
-.sprite-img{
-    width: 100%;
-    text-align: center;
-}
-
-.sprite{
-    width: 80%;
-}
 
 .extra-margin{
     margin-top: 70px;
@@ -646,7 +623,6 @@ body{
 @media only screen and (max-width: 990px) {
     .sidebar-menu{position: static; width:100%}
     .spacer{height: 25px;}
-    .sprite {width: 40%;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -659,8 +635,6 @@ body{
     .pacman{background-image: url('/static/images/Pacmansmall.jpg');}
     .news-img-thumbnail{width: 60%;}
     .social-link{height: 40px; width: 40px; font-size: 30px}
-    .c64-background{background-image: url('/static/images/c64 background4.jpg');}
-    .c64-background2{background-image: url('/static/images/c64 background4.jpg');}
     .heading-mobile{font-size: 1.5em;}
     .extra-margin-mobile{margin-top: 90px;}
     .footer-links{margin-bottom:0;}
