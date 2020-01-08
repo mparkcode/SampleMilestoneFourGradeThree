@@ -82,7 +82,6 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'retroplay.context_processors.get_brands',
                 'retroplay.context_processors.get_consoles',
-                'retroplay.context_processors.search_games',
                 'retroplay.context_processors.item_quantity'
             ],
         },

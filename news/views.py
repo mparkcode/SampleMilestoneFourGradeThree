@@ -5,10 +5,6 @@ from .models import Comment
 
 # Create your views here.
 def all_news(request):
-    search_query = request.GET.get("query")
-    if search_query:
-        query = search_query
-        return redirect('search_results', query)
     articles = Article.objects.all()
     return render(request, "news/all_news.html", {'articles':articles})
     
@@ -41,10 +37,6 @@ def view_article(request, pk):
             comment.delete()
         article = Article.objects.get(pk=pk)
         return redirect('view_article', article.id)
-    search_query = request.GET.get("query")
-    if search_query:
-        query = search_query
-        return redirect('search_results', query)
     comment_id = request.GET.get("comment_id")
     
     # display comment content in the form field if user clicks edit
