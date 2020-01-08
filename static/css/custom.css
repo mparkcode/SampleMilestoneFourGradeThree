@@ -2,8 +2,6 @@ body{
     margin: 0;
     padding: 0;
     position: relative;
-    background-image: url('/static/images/c64 angle.jpg');
-    background-repeat: no-repeat;
 }
 
 .main-content{
