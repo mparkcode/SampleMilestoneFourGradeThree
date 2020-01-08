@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Article, Comment
-from django.core.paginator import Paginator
 from .forms import CommentForm
 from .models import Comment
 
@@ -11,9 +10,6 @@ def all_news(request):
         query = search_query
         return redirect('search_results', query)
     articles = Article.objects.all()
-    paginator = Paginator(articles, 5)
-    page = request.GET.get('page')
-    articles=paginator.get_page(page)
     return render(request, "news/all_news.html", {'articles':articles})
     
 def view_article(request, pk):
